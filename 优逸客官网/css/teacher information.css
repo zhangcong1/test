@@ -1,0 +1,273 @@
+/*
+* @Author: 张聪
+* @Date:   2017-07-21 11:24:05
+* @Last Modified by:   张聪
+* @Last Modified time: 2017-07-23 12:36:32
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+body{
+	font-family: "苹方";
+}
+/* 头部开始 */
+header{
+	width: 100%;
+	height: 0.92rem;
+	background: #0078E6;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+}
+.header1{
+	width: 100%;
+	height: 0.92rem;
+}
+.youyike{
+	width: 2.01rem;
+	height: 0.67rem;
+	/* background: red; */
+	margin: 0.13rem auto 0.12rem;
+	line-height: 0.67rem;
+}
+.youyikeicon{
+	width: 0.7rem;
+	height: 0.67rem;
+	float: left;
+}
+.youyikeicon img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.youyike span{
+	display: block;
+	float: right;
+	font-size: 0.35rem;
+	color: white;
+	font-weight: bolder;
+}
+/* 头部结束 */
+/* BAnner开始 */
+.banner{
+	width: 100%;
+	height: 2.8rem;
+}
+.banner1{
+	width: 100%;
+	height: 2.8rem;
+}
+.banner1 img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+/* Banner结束 */
+/* 导航开始 */
+nav{
+	width: 100%;
+	height: 0.82rem;
+	background: #F5F6FA;
+	overflow: hidden;
+}
+.navi{
+	height: 0.22rem;
+	margin-top: 0.3rem;
+	margin-left: 0.23rem;
+	font-size: 0;
+	line-height: 0.22rem;
+}
+.home{
+	font-size: 0.22rem;
+	color: #494747;
+}
+/* 导航结束 */
+/* 概述开始 */
+.gaishu{
+	width: 100%;
+	height: 4.28rem;
+	background: #F5F6FA;
+	overflow: hidden;
+}
+.gaishu1{
+	width: 7.02rem;
+	height: 4.08rem;
+	background: white;
+	margin: 0 auto;
+	/* overflow: hidden; */
+}
+.gaishu-top{
+	width: 100%;
+	height: 0.68rem;
+	overflow: hidden;
+}
+.line{
+	width: 0.04rem;
+	height: 0.2rem;
+	background: #01B5FF;
+	margin: 0.32rem 0.19rem 0.14rem 0.19rem;
+	float: left;
+}
+.gaishu-word{
+	width: 6.4rem;
+	height: 0.65rem;
+	border-bottom: 0.01rem dashed #999999;
+	float: left;
+	font-size: 0;
+}
+.gaishu-word span{
+	display: block;
+	font-size: 0.23rem;
+	color: #444444;
+	margin-top: 0.2rem;
+}
+.gaishu-bottom{
+	width: 100%;
+	height: 3.4rem;
+}
+.pic{
+	width: 2.8rem;
+	height: 2.81rem;
+	background: #bcbbaf;
+	margin-top: 0.3rem;
+	margin-left: 0.32rem;
+	border-radius: 0.08rem;
+	float: left;
+}
+.pic img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.information{
+	height: 2.41rem;
+	float: left;
+	margin-left: 0.3rem;
+	margin-top: 0.49rem;
+}
+.liuzhao{
+	height: 0.28rem;
+	font-size: 0.28rem;
+	color: black;
+}
+.liuzhao span{
+	font-size: 0.2rem;
+	color: #01B5FF;
+	padding-top: 0.6rem;
+}
+.zhuanye{
+	height: 0.24rem;
+	margin-top: 0.64rem;
+	font-size: 0.24rem;
+	color: #333333;
+}
+.zhuanye span{
+	padding-right: 0.5rem;
+}
+.jineng{
+	height: 0.24rem;
+	margin-top: 0.18rem;
+	font-size: 0.24rem;
+	color: #333333;
+}
+.jineng1{
+	padding-right: 0.5rem;
+}
+.jineng2{
+	padding-left: 1.3rem;
+}
+.jingyan{
+	height: 0.24rem;
+	margin-top: 0.5rem;
+	font-size: 0.24rem;
+	color: #333333;
+}
+/* 概述结束 */
+/* 教师简介开始 */
+.gaishu0{
+	width: 100%;
+	height: 4.84rem;
+	background: #F5F6FA;
+	overflow: hidden;
+}
+.gaishu2{
+	width: 7.02rem;
+	height: 4.84rem;
+	background: white;
+	margin: 0 auto;
+	/* overflow: hidden; */
+}
+.gaishu-top{
+	width: 100%;
+	height: 0.68rem;
+	overflow: hidden;
+}
+.line{
+	width: 0.04rem;
+	height: 0.2rem;
+	background: #01B5FF;
+	margin: 0.32rem 0.19rem 0.14rem 0.19rem;
+	float: left;
+}
+.gaishu-word{
+	width: 6.4rem;
+	height: 0.65rem;
+	border-bottom: 0.01rem dashed #999999;
+	float: left;
+	font-size: 0;
+}
+.gaishu-word span{
+	display: block;
+	font-size: 0.23rem;
+	color: #444444;
+	margin-top: 0.2rem;
+}
+.p1{
+	width: 6.4rem;
+	/* height: 1.47rem; */
+	margin-top: 0.16rem;
+	margin-left: 0.42rem;
+	font-size: 0.24rem;
+	color: #666666;
+}
+.p2{
+	width: 6.4rem;
+	/* height: 1.47rem; */
+	margin-top: 0.25rem;
+	margin-left: 0.42rem;
+	font-size: 0.24rem;
+	color: #666666;
+}
+/* 教师简介结束 */
+/* 底部开始 */
+footer{
+	width: 100%;
+	height: 1.5rem;
+	background: #F5F6FA;
+	overflow: hidden;
+}
+.banquan{
+	display: block;
+	width: 100%;
+	height: 0.22rem;
+	text-align: center;
+	font-size: 0.22rem;
+	color: #666666;
+	margin-top: 0.4rem;
+
+}
+.banquan1{
+	display: block;
+	width: 100%;
+	height: 0.22rem;
+	text-align: center;
+	font-size: 0.22rem;
+	color: #666666;
+	margin-top: 0.18rem;
+}
+/* 底部结束 */

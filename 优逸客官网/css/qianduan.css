@@ -1,0 +1,599 @@
+/*
+* @Author: 张聪
+* @Date:   2017-07-21 17:52:29
+* @Last Modified by:   张聪
+* @Last Modified time: 2017-07-23 12:17:54
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+body{
+	font-family: "苹方";
+}
+/* 头部开始 */
+header{
+	width: 100%;
+	height: 0.92rem;
+	background: #0078E6;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+}
+.header1{
+	width: 100%;
+	height: 0.92rem;
+}
+.youyike{
+	width: 2.01rem;
+	height: 0.67rem;
+	/* background: red; */
+	margin: 0.13rem auto 0.12rem;
+	line-height: 0.67rem;
+}
+.youyikeicon{
+	width: 0.7rem;
+	height: 0.67rem;
+	float: left;
+}
+.youyikeicon img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.youyike span{
+	display: block;
+	float: right;
+	font-size: 0.35rem;
+	color: white;
+	font-weight: bolder;
+}
+/* 头部结束 */
+/* BAnner开始 */
+.banner{
+	width: 100%;
+	height: 2.8rem;
+}
+.banner1{
+	width: 100%;
+	height: 2.8rem;
+}
+.banner1 img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+/* Banner结束 */
+/* 导航开始 */
+nav{
+	width: 100%;
+	height: 0.82rem;
+	background: #F5F6FA;
+	overflow: hidden;
+}
+.navi{
+	height: 0.22rem;
+	margin-top: 0.3rem;
+	margin-left: 0.23rem;
+	font-size: 0;
+	line-height: 0.22rem;
+}
+.home{
+	font-size: 0.22rem;
+	color: #494747;
+}
+/* 导航结束 */
+/* 第一部分开始 */
+.part1{
+	width: 100%;
+	height: 2.36rem;
+	background: #F5F6FA;
+}
+.about{
+	width: 7.02rem;
+	height: 2.26rem;
+	background: white;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.serve{
+	width: 6.08rem;
+	height: 1.65rem;
+	margin: 0 auto;
+	margin-top: 0.28rem;
+}
+.serve li{
+	width: 1.21rem;
+	height: 100%;
+	margin-right: 0.41rem;
+	font-size: 0;
+	float: left;
+}
+.serve li:last-child{
+	margin-right: 0rem;
+}
+.picture1{
+	display: block;
+	width: 1.21rem;
+	height: 1.21rem;
+}
+.picture1 img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.serve li span{
+	display: block;
+	font-size: 0.23rem;
+	color: #000000;
+	padding-top: 0.2rem;
+	padding-left: 0.05rem;
+}
+/* 第一部分结束 */
+/* 第二部分开始 */
+.gaishu0{
+	width: 100%;
+	height: 4.75rem;
+	background: #F5F6FA;
+	overflow: hidden;
+}
+.gaishu2{
+	width: 7.02rem;
+	height: 4.66rem;
+	background: white;
+	margin: 0 auto;
+	/* overflow: hidden; */
+}
+.gaishu-top{
+	width: 100%;
+	height: 0.68rem;
+	overflow: hidden;
+}
+.line{
+	width: 0.04rem;
+	height: 0.2rem;
+	background: #01B5FF;
+	margin: 0.32rem 0.19rem 0.14rem 0.19rem;
+	float: left;
+}
+.gaishu-word{
+	width: 6.4rem;
+	height: 0.65rem;
+	border-bottom: 0.01rem dashed #999999;
+	float: left;
+	font-size: 0;
+}
+.gaishu-word span{
+	display: block;
+	font-size: 0.23rem;
+	color: #444444;
+	margin-top: 0.2rem;
+	font-weight: bolder;
+}
+p{
+	width: 6.4rem;
+	height: 3.49rem;
+	margin-top: 0.16rem;
+	margin-left: 0.4rem;
+	font-size: 0.24rem;
+	color: #666666;
+}
+p span{
+	font-size: 0.24rem;
+	color: #01B5FF;
+	font-weight: bolder;
+}
+/* 第二部分结束 */
+/* 第三部分开始 */
+.gaishu01{
+	width: 100%;
+	height: 5.85rem;
+	background: #F5F6FA;
+	overflow: hidden;
+}
+.gaishu3{
+	width: 7.02rem;
+	height: 5.76rem;
+	background: white;
+	margin: 0 auto;
+}
+.qingkuang{
+	width: 100%;
+	height: 4.48rem;
+}
+.qingkuang img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.jiuye{
+	width: 100%;
+	height: 0.27rem;
+	text-align: center;
+	line-height: 0.27rem;
+	font-size: 0;
+}
+.jiuye span{
+	font-size: 0.27rem;
+	color: black;
+}
+/* 第三部分结束 */
+/* 第四部分开始 */
+.gaishu02{
+	width: 100%;
+	height: 5.66rem;
+	background: #F5F6FA;
+	overflow: hidden;
+}
+.gaishu4{
+	width: 7.02rem;
+	height: 5.55rem;
+	background: white;
+	margin: 0 auto;
+}
+.gangwei{
+	width: 6rem;
+	height: 4.36rem;
+	margin-top: 0.2rem;
+	margin-left: 0.5rem;
+}
+.gangwei li{
+	height: 0.56rem;
+	margin-bottom: 0.2rem;
+}
+.gangwei li:last-child{
+	margin-bottom: 0.2rem;
+}
+.tubiao1{
+	width: 0.56rem;
+	height: 0.56rem;
+	background: url('../img/1.png') no-repeat;
+	background-size: 0.56rem 0.56rem;
+	float: left;
+}
+.tubiao2{
+	width: 0.56rem;
+	height: 0.56rem;
+	background: url('../img/2.png') no-repeat;
+	background-size: 0.56rem 0.56rem;
+	float: left;
+}
+.tubiao3{
+	width: 0.56rem;
+	height: 0.56rem;
+	background: url('../img/3.png') no-repeat;
+	background-size: 0.56rem 0.56rem;
+	float: left;
+}
+.tubiao4{
+	width: 0.56rem;
+	height: 0.56rem;
+	background: url('../img/4.png') no-repeat;
+	background-size: 0.56rem 0.56rem;
+	float: left;
+}
+.tubiao5{
+	width: 0.56rem;
+	height: 0.56rem;
+	background: url('../img/5.png') no-repeat;
+	background-size: 0.56rem 0.56rem;
+	float: left;
+}
+.tubiao6{
+	width: 0.56rem;
+	height: 0.56rem;
+	background: url('../img/6.png') no-repeat;
+	background-size: 0.56rem 0.56rem;
+	float: left;
+}
+.wenzi{
+	height: 0.46rem;
+	float: left;
+	margin-top: -0.06rem;
+	margin-left: 0.2rem;
+	font-size: 0;
+}
+.zi1{
+	font-size: 0.24rem;
+	color: #01b5ff;
+	display: block;
+}
+.zi2{
+	font-size: 0.16rem;
+	color: #3e3a39;
+	/* padding-top: 0.03rem; */
+}
+/* 第四部分结束 */
+/* 第五部分开始 */
+.gaishu03{
+	width: 100%;
+	height: 5.08rem;
+	background: #F5F6FA;
+	overflow: hidden;
+}
+.gaishu5{
+	width: 7.02rem;
+	height: 4.98rem;
+	background: white;
+	margin: 0 auto;
+}
+.name{
+	height: 0.22rem;
+	margin-top: 0.29rem;
+	margin-left: 0.53rem;
+	font-size: 0;
+}
+.name span{
+	font-size: 0.22rem;
+	color: black;
+	padding-right: 1.03rem;
+}
+.name span:nth-child(2){
+	padding-right: 2.2rem;
+}
+.name span:nth-child(3){
+	padding-right: 0rem;
+}
+.bian{
+	/* width: 6.54rem; */
+	height: 3.4rem;
+	margin-top: 0.26rem;
+	margin-left: 0.28rem;
+	border-left: 0.01rem dashed #01B5FF;
+	position: relative;
+}
+.student{
+	height: 3.24rem;
+	margin-top: 0.13rem;
+	margin-left: 0.2rem;
+}
+.student li{
+	height: 0.22rem;
+	margin-bottom: 0.5rem;
+	font-size: 0;
+}
+.student li:last-child{
+	margin-bottom: 0rem;
+}
+.student li span:nth-child(1){
+	font-size: 0.22rem;
+	color: #666666;
+	padding-right: 0.08rem;
+}
+.student li span:nth-child(2){
+	font-size: 0.19rem;
+	color: #FFA201;
+	padding-right: 0.08rem;
+}
+.student li span:nth-child(3){
+	font-size: 0.22rem;
+	color: #666666;
+}
+.wai1,.wai2,.wai3,.wai4,.wai5{
+	width: 0.19rem;
+	height: 0.19rem;
+	position: absolute;
+	background: #94E0FF;
+	left: -0.1rem;
+	border-radius: 50%;
+}
+.wai1{
+	top: 0.1rem;
+}
+.wai2{
+	top: 0.8rem;
+}
+.wai3{
+	top: 1.57rem;
+}
+.wai4{
+	top: 2.27rem;
+}
+.wai5{
+	top: 2.98rem;
+}
+.nei{
+	width: 0.11rem;
+	height: 0.11rem;
+	background: #01B5FF;
+	margin: 0.04rem auto;
+	border-radius: 50%;
+}
+/* 第五部分结束 */
+/* 第六部分开始 */
+.gaishu04{
+	width: 100%;
+	height: 4.98rem;
+	background: #F5F6FA;
+	overflow: hidden;
+}
+.gaishu6{
+	width: 7.02rem;
+	height: 4.98rem;
+	background: white;
+	margin: 0 auto;
+}
+.anpai{
+	width: 100%;
+	height: 4.3rem;
+	position: relative;
+}
+.circle1{
+	display: block;
+	width: 1.09rem;
+	height: 1.09rem;
+	position: absolute;
+	left: 0.94rem;
+	top: 0.32rem;
+	background: #00A0E9;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 1.09rem;
+	font-size: 0;
+}
+.circle2{
+	display: block;
+	width: 1.38rem;
+	height: 1.38rem;
+	position: absolute;
+	left: 0.35rem;
+	top: 1.41rem;
+	background: #00A0E9;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 1.38rem;
+	font-size: 0;
+}
+.circle3{
+	display: block;
+	width: 0.89rem;
+	height: 0.89rem;
+	position: absolute;
+	left: 0.83rem;
+	top: 2.96rem;
+	background: #00A0E9;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 0.89rem;
+	font-size: 0;
+}
+.circle4{
+	display: block;
+	width: 0.88rem;
+	height: 0.88rem;
+	position: absolute;
+	left: 1.74rem;
+	top: 1.22rem;
+	background: #00A0E9;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 0.88rem;
+	font-size: 0;
+}
+.circle5{
+	display: block;
+	width: 1.23rem;
+	height: 1.23rem;
+	position: absolute;
+	left: 1.69rem;
+	top: 2.13rem;
+	background: #00A0E9;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 1.23rem;
+	font-size: 0;
+}
+.circle6{
+	display: block;
+	width: 1.57rem;
+	height: 1.57rem;
+	position: absolute;
+	left: 2.67rem;
+	top: 0.4rem;
+	background: #00A0E9;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 1.57rem;
+	font-size: 0;
+}
+.circle7{
+	display: block;
+	width: 1.41rem;
+	height: 1.41rem;
+	position: absolute;
+	left: 2.92rem;
+	top: 2.18rem;
+	background: #00A0E9;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 1.41rem;
+	font-size: 0;
+}
+.circle8{
+	display: block;
+	width: 1.23rem;
+	height: 1.23rem;
+	position: absolute;
+	left: 4.15rem;
+	top: 1.37rem;
+	background: #00A0E9;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 1.23rem;
+	font-size: 0;
+}
+.circle9{
+	display: block;
+	width: 1.11rem;
+	height: 1.11rem;
+	position: absolute;
+	left: 4.89rem;
+	top: 0.34rem;
+	background: #00A0E9;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 1.11rem;
+	font-size: 0;
+}
+.circle10{
+	display: block;
+	width: 1.23rem;
+	height: 1.23rem;
+	position: absolute;
+	left: 5.59rem;
+	top: 1.39rem;
+	background: #00A0E9;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 1.23rem;
+	font-size: 0;
+}
+.circle11{
+	display: block;
+	width: 1.39rem;
+	height: 1.39rem;
+	position: absolute;
+	left: 4.47rem;
+	top: 2.56rem;
+	background: #00A0E9;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 1.39rem;
+	font-size: 0;
+}
+.kecheng{
+	font-size: 0.21rem;
+	color: white;
+}
+/* 第六部分结束 */
+/* 底部开始 */
+footer{
+	width: 100%;
+	height: 1.5rem;
+	background: #F5F6FA;
+	overflow: hidden;
+}
+.banquan{
+	display: block;
+	width: 100%;
+	height: 0.22rem;
+	text-align: center;
+	font-size: 0.22rem;
+	color: #666666;
+	margin-top: 0.4rem;
+
+}
+.banquan1{
+	display: block;
+	width: 100%;
+	height: 0.22rem;
+	text-align: center;
+	font-size: 0.22rem;
+	color: #666666;
+	margin-top: 0.18rem;
+}
+/* 底部结束 */

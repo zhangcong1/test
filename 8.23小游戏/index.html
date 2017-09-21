@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>打字小游戏</title>
+	<link rel="stylesheet" href="css/index.css">
+	<script src="js/index.js"></script>
+</head>
+<body>
+	<div class="score">
+		<span>0</span>
+	</div>
+	<div class="life">
+		<!-- <meter min='0' max="10" value="10"></meter> -->
+		<span>10</span>
+	</div>
+	<ul>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
+</body>
+</html>
+<script>
+	let game = new Game();
+	game.start();
+</script>

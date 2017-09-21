@@ -1,0 +1,156 @@
+/*
+* @Author: 张聪
+* @Date:   2017-08-21 17:39:58
+* @Last Modified by:   张聪
+* @Last Modified time: 2017-08-22 09:46:26
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	resize: none;
+}
+body{
+	font-family: '苹方';
+}
+.comment{
+	width: 100%;
+	height: 1200px;
+}
+main{
+	width: 800px;
+	height: 100%;
+	margin: 0 auto;
+	background: white;
+	box-shadow: 0 5px 10px 2px rgba(0, 0, 0, 0.15)
+}
+h3{
+	padding: 30px 20px;
+}
+ul{
+	width: 600px;
+	height: auto;
+	margin: 20px auto;
+}
+ul li{
+	width: 100%;
+	height: 100px;
+	margin-bottom: 30px;
+	background: white;
+	box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.15);
+	overflow: hidden;
+	z-index: 6666;
+}
+ul li img{
+	float: left;
+	width: 100px;
+}
+.content{
+	float: left;
+	width: calc(100% - 100px);
+	height: 100%;
+	z-index: 999;
+	position: relative;
+}
+.content>.user{
+	width: 100px;
+	height: 30px;
+	font-size: 16px;
+	color: black;
+	margin: 0 20px;
+	line-height: 30px;
+	border-bottom: 1px dotted black;
+}
+.neirong{
+	margin: 15px 20px 10px;
+	font-size: 10px;
+	color: #646567;
+}
+.time{
+	width: 100px;
+	height: 20px;
+	margin: 0 20px;
+	line-height: 20px;
+}
+.icon-icon-test{
+	color: #A6A6A6;
+}
+.timer{
+	font-size: 12px;
+	color: #A6A6A6;
+}
+.floor{
+	width: 80px;
+	height: 50px;
+	position: absolute;
+	right: 40px;
+	bottom: 20px;
+}
+.floor1,.floor2{
+	font-size: 15px;
+	color: #3C3D46;
+}
+.floor1{
+	padding-left: 10px;
+}
+.floor2{
+	margin-right: 30px;
+	float: right;
+}
+.xie{
+	width: 60px;
+	height: 1px;
+	background: #E1E1E1;
+	transform: rotate(-30deg);
+}
+h4{
+	padding: 0 30px;
+	color: rgb(150, 150, 150)
+}
+hr{
+	width: 670px;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+
+.pinglun{
+	width: 670px;
+	height: 200px;
+	margin-left: 30px;
+	margin-top: 40px;
+	border-radius: 30px;
+}
+.pinglun>textarea{
+	width: calc(100% - 10px);
+	height: calc(100% - 10px);
+	background: rgb(250, 250, 250);
+	border: none;
+	font-size: 18px;
+	padding: 10px 10px;
+}
+ ::-webkit-input-placeholder{
+	color: red;
+}
+.word{
+	width: 670px;
+	height: 40px;
+	margin-left: 30px;
+	margin-top: 10px;
+	line-height: 40px;
+}
+.word b{
+	color: red;
+}
+.tijiao{
+	width: 100px;
+	height: 30px;
+	margin-top: 5px;
+	float: right;
+	border: none;
+	background: rgb(50, 50, 50);
+	font-size: 12px;
+	color: white;
+	font-weight: bolder;
+	text-align: center;
+	line-height: 30px;
+}

@@ -1,0 +1,223 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+body{
+    font-family: '新宋体', 'serif';
+}
+.xiezhen{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.xiezhen li{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all 1s;
+}
+.xiezhen li img{
+    width: 100%;
+}
+.xiezhen li:first-child{
+    opacity: 1;
+}
+.mask{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.song{
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    top:20px;
+    text-align: center;
+    font-size: 28px;
+    color: #00AAEE;
+    padding: 5px 0;
+}
+.songer{
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    top:60px;
+    text-align: center;
+    font-size: 28px;
+    color: #00AAEE;
+    padding: 5px 0;
+}
+.lyrics{
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    left: 0;
+    top:130px;
+    text-align: center;
+    overflow: hidden;
+}
+.lyrics li{
+    font-size: 22px;
+    color: white;
+    line-height: 20px;
+    padding: 10px 0;
+}
+footer{
+    width: 100%;
+    height:100px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.progress{
+    width: 100%;
+    height: 2px;
+    background: #50514D;
+    margin-left: 15px;
+    position: relative;
+}
+.alltime{
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    right: 30px;
+    top:-26px;
+}
+.currentTime{
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    right: 80px;
+    top:-26px;
+}
+.pro{
+    width: 0;
+    height: 2px;
+    background: white;
+}
+.album{
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+    float: left;
+    margin: 10px 20px 10px 30px;
+    overflow: hidden;
+}
+.album>img{
+    height: 74px;
+}
+.infor{
+    width: 200px;
+    height: 100%;
+    padding: 15px 5px;
+    float: left;
+}
+.songs{
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+    color: white;
+    overflow: hidden;
+    line-height: 30px;
+    margin-bottom: 8px;
+}
+.love{
+    width: 160px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.love span{
+    font-size: 18px;
+    color: white;
+}
+.middle{
+    width: 220px;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    padding: 26px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.iconfont.icon-shangyishou,.iconfont.icon-xiayishou{
+    font-size: 40px;
+    color: white;
+}
+.iconfont.icon-pcduanbizhixiazaicishutubiao1{
+    display: inline-block;
+    font-size: 52px;
+    color: white;
+    margin-top: -7px;
+}
+.iconfont.icon-pcduanbizhixiazaicishutubiao{
+    display: inline-block;
+    font-size: 52px;
+    color: white;
+    margin-top: -7px;
+}
+.list{
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.list span{
+    font-size: 30px;
+    color: white;
+}
+.voice{
+    width: 40px;
+    height: 120px;
+    background: rgba(0,0,0,0.3);
+    position: absolute;
+    left: -6px;
+    bottom: 56px;
+    display: none;
+}
+.voice1{
+    width: 4px;
+    height: 100px;
+    background: #dfdfdf;
+    margin: 10px auto;
+    border-radius: 10px;
+    position: relative;
+}
+.voice2{
+    width: 4px;
+    height: 40px;
+    border-radius: 10px;
+    background: #55a532;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.voiceButton{
+    width: 12px;
+    height: 12px;
+    background: #55a532;
+    border-radius: 50%;
+    position: absolute;
+    left: -4px;
+    top: 54px;
+}

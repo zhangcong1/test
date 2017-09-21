@@ -1,0 +1,397 @@
+/*
+* @Author: 张聪
+* @Date:   2017-07-22 16:51:23
+* @Last Modified by:   张聪
+* @Last Modified time: 2017-07-23 13:06:08
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+body{
+	font-family: "苹方";
+}
+/* 头部开始 */
+header{
+	width: 100%;
+	height: 0.92rem;
+	background: #0078E6;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+}
+.header1{
+	width: 100%;
+	height: 0.92rem;
+}
+.youyike{
+	width: 2.01rem;
+	height: 0.67rem;
+	/* background: red; */
+	margin: 0.13rem auto 0.12rem;
+	line-height: 0.67rem;
+}
+.youyikeicon{
+	width: 0.7rem;
+	height: 0.67rem;
+	float: left;
+}
+.youyikeicon img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.youyike span{
+	display: block;
+	float: right;
+	font-size: 0.35rem;
+	color: white;
+	font-weight: bolder;
+}
+/* 头部结束 */
+/* BAnner开始 */
+.banner{
+	width: 100%;
+	height: 2.8rem;
+}
+.banner1{
+	width: 100%;
+	height: 2.8rem;
+}
+.banner1 img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+/* Banner结束 */
+/* 导航开始 */
+nav{
+	width: 100%;
+	height: 0.82rem;
+	background: #F5F6FA;
+	overflow: hidden;
+}
+.navi{
+	height: 0.22rem;
+	margin-top: 0.3rem;
+	margin-left: 0.23rem;
+	font-size: 0;
+	line-height: 0.22rem;
+}
+.home{
+	font-size: 0.22rem;
+	color: #494747;
+}
+/* 导航结束 */
+/* 概述开始 */
+.gaishu{
+	width: 100%;
+	height: 7.25rem;
+	background: #F5F6FA;
+	overflow: hidden;
+}
+.gaishu1{
+	width: 7.02rem;
+	height: 7.25rem;
+	background: white;
+	margin: 0 auto;
+	/* overflow: hidden; */
+}
+.gaishu-top{
+	width: 100%;
+	height: 0.68rem;
+	overflow: hidden;
+}
+.line{
+	width: 0.04rem;
+	height: 0.2rem;
+	background: #01B5FF;
+	margin: 0.32rem 0.19rem 0.14rem 0.19rem;
+	float: left;
+}
+.gaishu-word{
+	width: 6.4rem;
+	height: 0.65rem;
+	border-bottom: 0.01rem dashed #999999;
+	float: left;
+	font-size: 0;
+}
+.gaishu-word span{
+	display: block;
+	font-size: 0.23rem;
+	color: #444444;
+	margin-top: 0.2rem;
+	font-weight: bolder;
+}
+.gaishu1 .p1{
+	width: 6.4rem;
+	height: 2.97rem;
+	margin-top: 0.16rem;
+	margin-left: 0.42rem;
+	font-size: 0.24rem;
+	color: #666666;
+}
+.gaishu1 .p2{
+	width: 6.04rem;
+	height: 2.64rem;
+	margin-top: 1rem;
+	margin-left: 0.42rem;
+	font-size: 0.24rem;
+	color: #666666;
+}
+.middle{
+	width: 100%;
+	height: 3.62rem;
+	background: #F5F6FA;
+}
+.kuang{
+	width: 7.02rem;
+	height: 3.62rem;
+	margin: 0 auto;
+	background: #474747;
+}
+.bottom{
+	width: 100%;
+	height: 3.77rem;
+	background: #F5F6FA;
+}
+.box{
+	width: 7.02rem;
+	height: 100%;
+	background: white;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.box p{
+	width: 6.4rem;
+	height: 2.57rem;
+	margin-top: 0.29rem;
+	margin-left: 0.42rem;
+	border-bottom: 0.01rem dashed #999999;
+	font-size: 0.24rem;
+	color: #999999;
+}
+.share{
+	width: 100%;
+	height: 0.4rem;
+	margin-top: 0.26rem;
+	line-height: 0.4rem;
+	font-size: 0;
+}
+.share span{
+	display: block;
+	float: left;
+	font-size: 0.23rem;
+	color: black;
+	padding-left: 0.2rem;
+}
+.share1{
+	/* width: 2.8rem; */
+	height: 0.4rem;
+	float: left;
+}
+.share1 li{
+	width: 0.4rem;
+	height: 0.4rem;
+	float: left;
+	margin-left: 0.1rem;
+	margin-right: 0.2rem;
+	border-radius: 50%;
+}
+.share1 li:last-child{
+	margin-right: 0rem;
+}
+.img{
+	display: block;
+	width: 0.4rem;
+	height: 0.4rem;
+	border-radius: 50%;
+}
+.img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.zan{
+	height: 0.44rem;
+	float: right;
+	margin-right: 0.2rem;
+}
+.zan1{
+	display: block;
+	width: 0.4rem;
+	height: 0.4rem;
+	float: left;
+	margin-right: 0.2rem;
+	border-radius: 50%;
+}
+.zan1 img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.zan2{
+	display: block;
+	width: 0.4rem;
+	height: 0.4rem;
+	float: left;
+	border-radius: 50%;
+}
+.zan2 img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+/* 概述结束 */
+/* 上一页开始 */
+.search{
+	width: 100%;
+	height: 1.23rem;
+	background: #F5F6FA;
+	overflow: hidden;
+}
+.shang{
+	height: 0.23rem;
+	margin-top: 0.29rem;
+	margin-left: 0.44rem;
+	font-size: 0;
+}
+.shang span{
+	font-size: 0.23rem;
+	color: black;
+}
+.shang a{
+	font-size: 0.23rem;
+	color: #01B5FF;
+}
+.xia{
+	height: 0.23rem;
+	margin-top: 0.2rem;
+	margin-left: 0.44rem;
+	font-size: 0;
+}
+.xia span{
+	font-size: 0.23rem;
+	color: black;
+}
+.xia a{
+	font-size: 0.23rem;
+	color: #01B5FF;
+}
+/* 上一页结束 */
+/* 相关问题开始 */
+.relative{
+	width: 100%;
+	height: 3.07rem;
+	background: #F5F6FA;
+	overflow: hidden;
+}
+.relative1{
+	width: 7.02rem;
+	height: 100%;
+	background: white;
+	margin: 0 auto;
+}
+.gaishu-top{
+	width: 100%;
+	height: 0.68rem;
+	overflow: hidden;
+}
+.line{
+	width: 0.04rem;
+	height: 0.2rem;
+	background: #01B5FF;
+	margin: 0.32rem 0.19rem 0.14rem 0.19rem;
+	float: left;
+}
+.gaishu-word{
+	width: 6.4rem;
+	height: 0.65rem;
+	border-bottom: 0.01rem dashed #999999;
+	float: left;
+	font-size: 0;
+}
+.gaishu-word span{
+	display: block;
+	font-size: 0.23rem;
+	color: #444444;
+	margin-top: 0.2rem;
+	font-weight: bolder;
+}
+.problem{
+	width: 5.84rem;
+	height: 1.79rem;
+	margin-top: 0.29rem;
+	margin-left: 0.16rem;
+}
+.problem li{
+	height: 0.34rem;
+	margin-bottom: 0.18rem;
+	overflow: hidden;
+}
+.wai{
+	width: 0.19rem;
+	height: 0.19rem;
+	background: #94E0FF;
+	border-radius: 50%;
+	margin-top: 0.1rem;
+	margin-left: 0.02rem;
+	overflow: hidden;
+	float: left;
+	box-shadow: 0 0.01rem 0.05rem 0.01rem #25C0FF;
+}
+.nei{
+	width: 0.11rem;
+	height: 0.11rem;
+	background: #01B5FF;
+	margin: 0.04rem auto;
+	border-radius: 50%;
+}
+.problem1{
+	display: block;
+	float: left;
+	margin-left: 0.16rem;
+	height: 0.23rem;
+	font-size: 0.23rem;
+	color: black;
+}
+.problem2{
+	display: block;
+	float: left;
+	margin-left: 0.16rem;
+	height: 0.23rem;
+	font-size: 0.23rem;
+	color: #01B5FF;
+}
+/* 相关问题结束 */
+/* 底部开始 */
+footer{
+	width: 100%;
+	height: 1.5rem;
+	background: #F5F6FA;
+	overflow: hidden;
+}
+.banquan{
+	display: block;
+	width: 100%;
+	height: 0.22rem;
+	text-align: center;
+	font-size: 0.22rem;
+	color: #666666;
+	margin-top: 0.4rem;
+
+}
+.banquan1{
+	display: block;
+	width: 100%;
+	height: 0.22rem;
+	text-align: center;
+	font-size: 0.22rem;
+	color: #666666;
+	margin-top: 0.18rem;
+}
+/* 底部结束 */

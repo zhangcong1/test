@@ -1,0 +1,378 @@
+/*
+* @Author: 张聪
+* @Date:   2017-07-20 11:22:07
+* @Last Modified by:   张聪
+* @Last Modified time: 2017-07-23 12:29:59
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+body{
+	font-family: "苹方";
+}
+/* 头部开始 */
+header{
+	width: 100%;
+	height: 0.92rem;
+	background: #0078E6;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+}
+.header1{
+	width: 100%;
+	height: 0.92rem;
+}
+.youyike{
+	width: 2.01rem;
+	height: 0.67rem;
+	/* background: red; */
+	margin: 0.13rem auto 0.12rem;
+	line-height: 0.67rem;
+}
+.youyikeicon{
+	width: 0.7rem;
+	height: 0.67rem;
+	float: left;
+}
+.youyikeicon img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.youyike span{
+	display: block;
+	float: right;
+	font-size: 0.35rem;
+	color: white;
+	font-weight: bolder;
+}
+/* 头部结束 */
+/* BAnner开始 */
+.banner{
+	width: 100%;
+	height: 2.8rem;
+}
+.banner1{
+	width: 100%;
+	height: 2.8rem;
+}
+.banner1 img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+/* BAnner结束 */
+/* 导航开始 */
+nav{
+	width: 100%;
+	height: 5rem;
+	background: #f5f6fa;
+}
+.navi{
+	width: 100%;
+	height: 4.8rem;
+}
+.navi li{
+	width: 25%;
+	height: 2.4rem;
+	background: #f5f6fa;
+	float: left;
+}
+.kecheng{
+	display: block;
+	width: 1.55rem;
+	height: 1.55rem;
+	background: white;
+	margin: 0.29rem auto 0;
+	border-radius: 0.27rem;
+	font-size: 0;
+	overflow: hidden;
+}
+.pic1{
+	width: 0.96rem;
+	height: 0.96rem;
+	margin: 0.3rem auto;
+	background: url('../img/nav.png') no-repeat 0 0;
+	background-size: 2rem 8.26rem;
+}
+.pic2{
+	width: 0.96rem;
+	height: 0.96rem;
+	margin: 0.3rem auto;
+	background: url('../img/nav.png') no-repeat -1.01rem -0.02rem;
+	background-size: 2rem 8.26rem;
+}
+.pic3{
+	width: 0.96rem;
+	height: 0.96rem;
+	margin: 0.3rem auto;
+	background: url('../img/nav.png') no-repeat 0.1rem -1.12rem;
+	background-size: 2rem 8.26rem;
+}
+.pic4{
+	width: 0.96rem;
+	height: 0.96rem;
+	margin: 0.3rem auto;
+	background: url('../img/nav.png') no-repeat -1.04rem -1.11rem;
+	background-size: 2rem 8.26rem;
+}
+.pic5{
+	width: 0.96rem;
+	height: 0.96rem;
+	margin: 0.3rem auto;
+	background: url('../img/nav.png') no-repeat 0.04rem -2.2rem;
+	background-size: 2rem 8.26rem;
+}
+.pic6{
+	width: 0.96rem;
+	height: 0.96rem;
+	margin: 0.3rem auto;
+	background: url('../img/nav.png') no-repeat -1.02rem -2.2rem;
+	background-size: 2rem 8.26rem;
+}
+.pic7{
+	width: 0.96rem;
+	height: 0.96rem;
+	margin: 0.3rem auto;
+	background: url('../img/nav.png') no-repeat 0rem -3.29rem;
+	background-size: 2rem 8.26rem;
+}
+.pic8{
+	width: 0.96rem;
+	height: 0.96rem;
+	margin: 0.3rem auto;
+	background: url('../img/nav.png') no-repeat -0.95rem -3.29rem;
+	background-size: 2rem 8.26rem;
+}
+.name{
+	display: block;
+	width: 100%;
+	height: 0.2rem;
+	text-align: center;
+	font-size: 0.2rem;
+	color: black;
+	margin-top: 0.16rem;
+	/* font-weight: bolder; */
+	font-family: "苹方";
+}
+/* 导航结束 */
+/* 服务开始 */
+.service{
+	width: 100%;
+	height: 4.22rem;
+	background: white;
+}
+.service-top{
+	width: 100%;
+	height: 0.63rem;
+	text-align: center;
+	line-height: 0.63rem;
+	font-size: 0;
+}
+.fuwu{
+	font-size: 0.23rem;
+	color: #0377BC;
+}
+.service-bottom{
+	width: 100%;
+	height: 3.59rem;
+}
+.service-bottom li{
+	width: 50%;
+	height: 2.2rem;
+	float: left;
+	box-sizing: border-box;
+}
+.lianjie{
+	display: block;
+	width: 100%;
+	height: 2.2rem;
+}
+.service-bottom li:first-child{
+	border-right: 0.01rem solid #E8E8E8;
+	border-top: 0.01rem solid #E8E8E8;
+	border-bottom: 0.01rem solid #E8E8E8;
+}
+.service-bottom li:nth-child(2){
+	border-top: 0.01rem solid #E8E8E8;
+	border-bottom: 0.01rem solid #E8E8E8;
+}
+.service-bottom li:nth-child(3){
+	width: 33.333333%;
+	height: 1.39rem;
+	border-bottom: 0.01rem solid #E8E8E8;
+	border-right: 0.01rem solid #E8E8E8;
+}
+.service-bottom li:nth-child(4){
+	width: 33.333333%;
+	height: 1.39rem;
+	border-bottom: 0.01rem solid #E8E8E8;
+	border-right: 0.01rem solid #E8E8E8;
+}
+.service-bottom li:nth-child(5){
+	width: 33.333333%;
+	height: 1.39rem;
+	border-bottom: 0.01rem solid #E8E8E8;
+}
+.word{
+	height: 0.59rem;
+	padding-top: 0.38rem;
+	padding-left: 0.16rem;
+	float: left;
+}
+.mianfeitijian{
+	display: block;
+	/* width: 1.2rem; */
+	height: 0.24rem;
+	font-size: 0.24rem;
+	color: #000000;
+}
+.health{
+	display: block;
+	/* width: 1.8rem; */
+	height: 0.18rem;
+	padding-top: 0.17rem;
+	font-size: 0.18rem;
+	color: #A1A1A1;
+}
+.picture{
+	width: 1.33rem;
+	height: 1.33rem;
+	float: right;
+	margin-top: 0.38rem;
+	margin-right: 0.2rem;
+	background: url('../img/nav.png') no-repeat -0.03rem -4.41rem;
+	background-size: 2rem 8.26rem;
+}
+.picture1{
+	width: 1.49rem;
+	height: 1.33rem;
+	float: right;
+	margin-top: 0.38rem;
+	margin-right: 0.2rem;
+	background: url('../img/nav.png') no-repeat -0.01rem -5.95rem;
+	background-size: 2rem 8.26rem;
+}
+.picture2{
+	width: 0.6rem;
+	height: 0.61rem;
+	float: left;
+	margin-top: 0.45rem;
+	margin-left: 0.2rem;
+	background: url('../img/nav.png') no-repeat -0.03rem -7.42rem;
+	background-size: 2rem 8.26rem;
+}
+.picture3{
+	width: 0.6rem;
+	height: 0.61rem;
+	float: left;
+	margin-top: 0.45rem;
+	margin-left: 0.2rem;
+	background: url('../img/nav.png') no-repeat -0.72rem -7.42rem;
+	background-size: 2rem 8.26rem;
+}
+.picture4{
+	width: 0.6rem;
+	height: 0.61rem;
+	float: left;
+	margin-top: 0.45rem;
+	margin-left: 0.2rem;
+	background: url('../img/nav.png') no-repeat -1.38rem -7.42rem;
+	background-size: 2rem 8.26rem;
+}
+/* 服务结束 */
+/* 底部开始 */
+footer{
+	width: 100%;
+	height: 1.4rem;
+	background: #F5F6FA;
+	overflow: hidden;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	z-index: 999;
+}
+.footer1{
+	width: 100%;
+	height: 1.4rem;
+	background: #F5F6FA;
+}
+.foot{
+	width: 100%;
+	height: 0.8rem;
+	background: white;
+	margin-top: 0.2rem;
+}
+.foot-left{
+	height: 0.31rem;
+	margin-top: 0.24rem;
+	margin-left: 0.2rem;
+	float: left;
+	line-height: 0.31rem;
+}
+.chaxunicon{
+	width: 0.31rem;
+	height: 0.31rem;
+	background: url('../img/nav.png') no-repeat -1.59rem -4.43rem;
+	background-size: 2rem 8.26rem;
+	float: left;
+}
+.chaxun{
+	display: block;
+	float: right;
+	font-size: 0.23rem;
+	color: #000000;
+	padding-left: 0.13rem;
+}
+.foot-right{
+	height: 0.31rem;
+	margin-top: 0.24rem;
+	margin-right: 0.2rem;
+	float: right;
+	line-height: 0.31rem;
+}
+.goutongicon{
+	width: 0.33rem;
+	height: 0.31rem;
+	background: url('../img/nav.png') no-repeat -1.62rem -5.31rem;
+	background-size: 2rem 8.26rem;
+	float: left;
+}
+.middle{
+	display: block;
+	width: 2.37rem;
+	height: 0.8rem;
+	background: #FF7E00;
+	float: left;
+	margin-left: 0.8rem;
+	border-radius: 0.08rem;
+	box-shadow: 0 0 0.2rem 0.03rem #FF7E00;
+}
+.middle-box{
+	width: 1.57rem;
+	height: 0.34rem;
+	margin: 0.24rem auto;
+	/* background: red; */
+	line-height: 0.34rem;
+}
+.tel-icon{
+	width: 0.35rem;
+	height: 0.35rem;
+	float: left;
+	background: url('../img/nav.png') no-repeat -1.58rem -4.79rem;
+	background-size: 2rem 8.26rem;
+}
+.free{
+	display: block;
+	float: right;
+	font-size: 0.26rem;
+	color: white;
+	font-weight: bolder;
+}
+/* 底部结束 */

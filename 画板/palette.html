@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>画板</title>
+    <link rel="stylesheet" href="css/palette.css">
+    <link rel="stylesheet" href="iconfont/iconfont.css">
+    <script src="js/palette.js"></script>
+</head>
+<body>
+    <main>
+        <div class="left">
+            <img src="css/logo.jpg" alt="" class="logo">
+            <label active="true" id="line">
+                <span class="iconfont icon-xiantiao-xiexian"></span>
+            </label>
+            <label id="dash">
+                <span class="iconfont icon--xuxian"></span>
+            </label>
+            <label id="circle">
+                <span class="iconfont icon-yuan"></span>
+            </label>
+            <label id="juxing">
+                <span class="iconfont icon-juxing"></span>
+            </label>
+            <label id="poly">
+                <span class="iconfont icon-duobianxing"></span>
+            </label>
+            <label id="polygon">
+                <span class="iconfont icon-wujiaoxing"></span>
+            </label>
+            <label id="pencil">
+                <span class="iconfont icon-pencil"></span>
+            </label>
+
+            <hr>
+
+            <label active="true" class="tools" id="stroke">
+                <span class="iconfont icon-miaobian"></span>
+            </label>
+            <label class="tools">
+                <input type="color" class="stroke">
+            </label>
+            <label class="tools" id="fill">
+                <span class="iconfont icon-tianchong"></span>
+            </label>
+            <label class="tools">
+                <input type="color" class="fill">
+            </label>
+            <label class="tools" id='eraser'>
+                <span class="iconfont icon-choiceEraser-copy"></span>
+            </label>
+            <label class="tools" id="word">
+                <span class="iconfont icon-wenzi"></span>
+            </label>
+            <label class="tools" id="clip">
+                <span class="iconfont icon-jianqie"></span>
+            </label>
+        </div>
+        <div class="right">
+            <div class="top">
+                <ul>
+                    <li>
+                        <span class="iconfont icon-plus-creat"></span>
+                    </li>
+                    <li>
+                        <a href="" class="iconfont icon-baocun"></a>
+                    </li>
+                    <li>
+                        <span class="iconfont icon-fanhui"></span>
+                    </li>
+                    <li>
+                        <span class="fx">FX</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="bottom">
+                <canvas width="1240" height="580"></canvas>
+                <div class="mask"></div>
+                <div class="eraser"></div>
+                <div class="clip"></div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
+<!--<script>
+    window.onload = function () {
+        let bo = document.querySelector('.bottom');
+        alert(bo.offsetWidth);
+        alert(bo.offsetHeight);
+    }
+</script>-->
+<script src="js/index.js"></script>
