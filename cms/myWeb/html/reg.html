@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <link rel="stylesheet" href="../../static/css/bootstrap.min.css">
+    <script src="../../static/js/jquery-3.2.1.js"></script>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        html,body{
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+        video{
+            width: 100%;
+        }
+        .mask{
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.5);
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+        form{
+            width: 300px;
+            height: 330px;
+            border: 1px solid #cccccc;
+            background: rgba(0,0,0,0.7);
+            border-radius: 8px;
+            position: fixed;
+            left: 0;right: 0;
+            top: 0;bottom: 0;
+            margin: auto;
+            padding:20px;
+            color: white;
+        }
+        .error{
+            width: 100px;
+            height: 30px;
+            position: absolute;
+            top: 27px;
+            right: 0;
+            display: none;
+            line-height: 30px;
+            font-size: 12px;
+            color: #5e5e5e;
+        }
+        .form-group{
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <video src="../img/T1T78eXapfXXXXXXXX.mp4" autoplay loop></video>
+    <div class="mask">
+        <form action="php/adduser.php" method="post">
+            <div class="form-group">
+                <label for="exampleInputEmail1">用户名</label>
+                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="User" name="user" autocomplete="off">
+                <div class="error"></div>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">密码</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" name="password">
+                <div class="error"></div>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword2">确认密码</label>
+                <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Checked" name="check">
+                <div class="error"></div>
+            </div>
+            <br>
+            <button type="submit" class="btn btn-default" disabled>注册</button>
+            注册成功,请点击 <a href="../index.php">登录</a>
+        </form>
+    </div>
+    <script>
+        let user = $("input[name='user']")
+        let pass = $("input[name='password']")
+        let check = $("input[name='check']")
+        let btn = $('.btn')
+        user.keyup(function () {
+            let userReg = /^[a-z]\w{5,12}$/i;
+            let userVal = $(this).val();
+            let that = this;
+            if (userReg.exec(userVal)){
+                $.ajax({
+                    url:'php/checked.php',
+                    data:{user:userVal},
+                    success:function (data) {
+                        if (data=='ok'){
+                            $(that).next().css({
+                                display:'block',
+                                color:'green'
+                            }).html('用户名可用');
+                            $(that).data('flag',true);
+                        }else {
+                            $(that).next().css({
+                                display:'block',
+                                color:'red'
+                            }).html('用户名已存在');
+                            $(that).data('flag',false);
+                        }
+                    }
+                })
+                checked();
+            }else {
+                $(this).next().css({
+                    display:'block',
+                    color:'red'
+                }).html('用户名格式错误');
+                $(this).data('flag',false);
+            }
+        })
+        pass.keyup(function () {
+            let passReg = /^\d{6,12}$/;
+            let passVal = $(this).val();
+            if (passReg.exec(passVal)){
+                if (passVal == check.val()){
+                    $(this).next().css({
+                        display:'block',
+                        color:'green'
+                    }).html('两次密码一致')
+                    $(this).data('flag',true)
+                    check.next().css({
+                        display:'block',
+                        color:'green'
+                    }).html('两次密码一致')
+                    check.data('flag',true)
+                }else {
+                    $(this).next().css({
+                        display:'block',
+                        color:'red'
+                    }).html('两次密码不一致')
+                    $(this).data('flag',false)
+                }
+            }else {
+                $(this).next().css({
+                    display:'block',
+                    color:'red'
+                }).html('密码格式错误')
+                $(this).data('flag',false)
+            }
+            checked()
+        })
+        check.keyup(function () {
+            let checkReg = /^\d{6,12}$/;
+            let checkVal = $(this).val();
+            if (checkReg.exec(checkVal)){
+                if (checkVal == pass.val()){
+                    $(this).next().css({
+                        display:'block',
+                        color:'green'
+                    }).html('两次密码一致')
+                    $(this).data('flag',true)
+                    pass.next().css({
+                        display:'block',
+                        color:'green'
+                    }).html('两次密码一致')
+                    pass.data('flag',true)
+                }else {
+                    $(this).next().css({
+                        display:'block',
+                        color:'red'
+                    }).html('两次密码不一致')
+                    $(this).data('flag',false)
+                }
+            }else {
+                $(this).next().css({
+                    display:'block',
+                    color:'red'
+                }).html('两次密码不一致')
+                $(this).data('flag',false)
+            }
+            checked()
+        })
+        function checked() {
+            let flag = true;
+            $('input').each(function (index,obj) {
+                if(!$(obj).data("flag")){
+                    flag = false;
+                }
+            })
+            if(flag){
+                $(".btn").removeAttr("disabled");
+            }else {
+                $(".btn").attr({"disabled":"disabled"});
+            }
+        }
+    </script>
+</body>
+</html>

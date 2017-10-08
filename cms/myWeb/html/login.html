@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <link rel="stylesheet" href="../iconfont/iconfont.css">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        html,body{
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+        video{
+            width: 100%;
+        }
+        .mask{
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.5);
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+        #logins{
+            width: 190px;
+            height: 250px;
+            background: rgba(0,0,0,0.5);
+            position: absolute;
+            right: 0;
+            top:0;
+            bottom: 0;
+            left:0;
+            margin:auto;
+            padding: 0 30px;
+            border:1px solid transparent;
+            border-radius: 5px;
+        }
+        #logins>h2{
+            padding: 15px 0;
+            text-align: center;
+            color: white;
+        }
+        #logins .user{
+            width: 100%;
+            height: 40px;
+            margin-bottom: 20px;
+        }
+        #logins .user .userIcon{
+            width: 40px;
+            height: 40px;
+            background: #aaabab;
+            float: left;
+            font-size: 24px;
+            color: white;
+            text-align: center;
+            line-height: 40px;
+        }
+        #logins .user input{
+            width: calc(100% - 40px);
+            display: block;
+            height: 40px;
+            background: white;
+            padding:0 5px;
+            box-sizing: border-box;
+        }
+        input[type=submit]{
+            width: 100%;
+            height: 40px;
+            background: #0AE;
+            border-radius: 5px;
+            text-align: center;
+            line-height: 40px;
+            font-size: 18px;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        #logins>a{
+            font-size: 12px;
+            color: #0AE;
+            float: right;
+            padding-top: 5px;
+        }
+    </style>
+</head>
+<body>
+<video src="../img/T1T78eXapfXXXXXXXX.mp4" autoplay loop></video>
+<div class="mask">
+    <div id="logins">
+        <h2>登录页面</h2>
+        <form action="php/checkLogin.php" method="post">
+            <div class="user">
+                <div class="userIcon iconfont icon-yonghu">
+                </div>
+                <input type="text" placeholder="用户名" name="username" autocomplete="off" value="">
+            </div>
+            <div class="user">
+                <div class="userIcon iconfont icon-mima01">
+                </div>
+                <input type="password" placeholder="密码" name="password" autocomplete="off">
+            </div>
+            <input type="submit" value="登录">
+        </form>
+    </div>
+</div>
+</body>
+</html>
